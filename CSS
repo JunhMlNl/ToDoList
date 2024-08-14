@@ -1,0 +1,50 @@
+body{
+  height: 100vh;
+  background: url("https://png.pngtree.com/thumb_back/fw800/background/20230506/pngtree-stars-in-the-night-sky-beautiful-ai-background-scenery-image_2590056.jpg  ") no-repeat center;
+  background-size: cover;
+  color: white;
+  box-sizing:border-box;
+  font-family: "Jua";
+}
+#itemList{
+  color : black;
+}
+#wrapper {
+  width:600px;
+  margin:0 auto; 
+}
+h2 {
+  text-align:center;
+}
+form {
+  padding:30px 40px;
+  color:black; 
+  text-align:center;
+}
+input {
+  border:none; 
+  width:440px;
+  padding:10px;
+  float:left;
+  font-size:16px;
+}
+.addBtn {
+  padding:10px;
+  width:50px;
+  border:none;
+  background-color:#2c6ac8;
+  box-shadow:1px 2px 4px #167dae;
+  color:#000000; 
+  text-align:center;
+  font-size:14px;
+  cursor:pointer;
+  transition:0.3;
+  font-family: "Jua";
+  font-size: 16px;
+}
+
+form::after {
+  content:"";
+  display:table;
+  clear:both;
+}
